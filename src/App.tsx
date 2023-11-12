@@ -6,7 +6,8 @@ import SignIn from './pages/SignIn';
 function App() {
   return (
     <BrowserRouter>
-    <Header/>
+    {/* header add in all page */}
+    <Header/> 
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="about" element={<About/>}/>
